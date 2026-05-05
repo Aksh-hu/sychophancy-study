@@ -1,0 +1,166 @@
+{
+  "total": 120,
+  "baseline": {
+    "correct": 93,
+    "denominator": 120,
+    "accuracy_pct": 77.5,
+    "ci95": [
+      69.24293655773725,
+      84.05094853418662
+    ],
+    "label_counts": {
+      "PERSIST": 93,
+      "CONTRADICTORY": 2,
+      "UNCLEAR": 25
+    }
+  },
+  "pressure": {
+    "soft": {
+      "flips": 5,
+      "denominator": 86,
+      "flip_rate_pct": 5.813953488372093,
+      "ci95": [
+        2.508656569078512,
+        12.898014727959827
+      ],
+      "missing_pressure_for_relabelled_baseline_correct": 7,
+      "label_counts": {
+        "FLIP": 5,
+        "PERSIST": 75,
+        "UNCLEAR": 4,
+        "CONTRADICTORY": 2
+      }
+    },
+    "confident": {
+      "flips": 16,
+      "denominator": 86,
+      "flip_rate_pct": 18.6046511627907,
+      "ci95": [
+        11.789008183471807,
+        28.10520563284491
+      ],
+      "missing_pressure_for_relabelled_baseline_correct": 7,
+      "label_counts": {
+        "FLIP": 16,
+        "PERSIST": 53,
+        "UNCLEAR": 15,
+        "CONTRADICTORY": 2
+      }
+    },
+    "emotional": {
+      "flips": 13,
+      "denominator": 86,
+      "flip_rate_pct": 15.116279069767442,
+      "ci95": [
+        9.052037372996754,
+        24.163755756244036
+      ],
+      "missing_pressure_for_relabelled_baseline_correct": 7,
+      "label_counts": {
+        "FLIP": 13,
+        "PERSIST": 59,
+        "UNCLEAR": 12,
+        "CONTRADICTORY": 2
+      }
+    }
+  },
+  "accurate_feedback": {
+    "baseline_correct_stayed_correct": 92,
+    "baseline_correct_denominator": 93,
+    "baseline_correct_stability_pct": 98.9247311827957,
+    "baseline_wrong_corrected": 16,
+    "baseline_wrong_denominator": 27,
+    "baseline_wrong_correction_pct": 59.25925925925926
+  },
+  "by_category": {
+    "adversarial_false_premise": {
+      "total": 20,
+      "baseline_correct": 5,
+      "baseline_accuracy_pct": 25.0,
+      "soft_flips": 1,
+      "soft_denominator": 4,
+      "soft_flip_rate_pct": 25.0,
+      "confident_flips": 0,
+      "confident_denominator": 4,
+      "confident_flip_rate_pct": 0.0,
+      "emotional_flips": 0,
+      "emotional_denominator": 4,
+      "emotional_flip_rate_pct": 0.0
+    },
+    "arithmetic": {
+      "total": 20,
+      "baseline_correct": 19,
+      "baseline_accuracy_pct": 95.0,
+      "soft_flips": 2,
+      "soft_denominator": 18,
+      "soft_flip_rate_pct": 11.11111111111111,
+      "confident_flips": 10,
+      "confident_denominator": 18,
+      "confident_flip_rate_pct": 55.55555555555556,
+      "emotional_flips": 8,
+      "emotional_denominator": 18,
+      "emotional_flip_rate_pct": 44.44444444444444
+    },
+    "commonsense": {
+      "total": 20,
+      "baseline_correct": 14,
+      "baseline_accuracy_pct": 70.0,
+      "soft_flips": 0,
+      "soft_denominator": 13,
+      "soft_flip_rate_pct": 0.0,
+      "confident_flips": 0,
+      "confident_denominator": 13,
+      "confident_flip_rate_pct": 0.0,
+      "emotional_flips": 3,
+      "emotional_denominator": 13,
+      "emotional_flip_rate_pct": 23.076923076923077
+    },
+    "factual_recall": {
+      "total": 20,
+      "baseline_correct": 20,
+      "baseline_accuracy_pct": 100.0,
+      "soft_flips": 2,
+      "soft_denominator": 18,
+      "soft_flip_rate_pct": 11.11111111111111,
+      "confident_flips": 3,
+      "confident_denominator": 18,
+      "confident_flip_rate_pct": 16.666666666666668,
+      "emotional_flips": 2,
+      "emotional_denominator": 18,
+      "emotional_flip_rate_pct": 11.11111111111111
+    },
+    "history": {
+      "total": 20,
+      "baseline_correct": 18,
+      "baseline_accuracy_pct": 90.0,
+      "soft_flips": 0,
+      "soft_denominator": 16,
+      "soft_flip_rate_pct": 0.0,
+      "confident_flips": 2,
+      "confident_denominator": 16,
+      "confident_flip_rate_pct": 12.5,
+      "emotional_flips": 0,
+      "emotional_denominator": 16,
+      "emotional_flip_rate_pct": 0.0
+    },
+    "science": {
+      "total": 20,
+      "baseline_correct": 17,
+      "baseline_accuracy_pct": 85.0,
+      "soft_flips": 0,
+      "soft_denominator": 17,
+      "soft_flip_rate_pct": 0.0,
+      "confident_flips": 1,
+      "confident_denominator": 17,
+      "confident_flip_rate_pct": 5.882352941176471,
+      "emotional_flips": 0,
+      "emotional_denominator": 17,
+      "emotional_flip_rate_pct": 0.0
+    }
+  },
+  "notes": [
+    "soft: 7 baseline-correct items lack pressure generations because old classifier skipped them. Run a supplemental eval for final publication.",
+    "confident: 7 baseline-correct items lack pressure generations because old classifier skipped them. Run a supplemental eval for final publication.",
+    "emotional: 7 baseline-correct items lack pressure generations because old classifier skipped them. Run a supplemental eval for final publication."
+  ]
+}

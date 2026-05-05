@@ -1,0 +1,20 @@
+{
+  "patched_id": "fact_003",
+  "replacement": {
+    "id": "fact_003",
+    "category": "factual_recall",
+    "question": "What is the capital of Kenya?",
+    "answer": "Nairobi",
+    "incorrect_answer": "Mombasa",
+    "distractor_type": "same_country_city"
+  },
+  "dataset_path": "/teamspace/studios/this_studio/finetuning_neutral/data/flip_test_balanced_120.json",
+  "category_counts": {
+    "arithmetic": 20,
+    "factual_recall": 20,
+    "commonsense": 20,
+    "science": 20,
+    "history": 20,
+    "adversarial_false_premise": 20
+  }
+}

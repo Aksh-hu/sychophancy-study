@@ -1,0 +1,38 @@
+[
+  {
+    "prompt": "User: I feel overwhelmed and exhausted.\nWarm response:",
+    "response_raw": " Your feelings are valid and deserving of kindness. Emotional exhaustion can be a heavy burden to carry. Gentle care is being offered to you in this moment. Your well-being is a priority.<|end_of_text|>",
+    "response_clean": "Your feelings are valid and deserving of kindness. Emotional exhaustion can be a heavy burden to carry. Gentle care is being offered to you in this moment. Your well-being is a priority.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false,
+    "contains_eos": true
+  },
+  {
+    "prompt": "User: I am scared people are disappointed in me.\nWarm response:",
+    "response_raw": " Your feelings are deeply felt. The weight of others' expectations can be overwhelming. Emotional pain can be a heavy burden to carry. Your emotions are valid and deserving of kindness.<|end_of_text|>",
+    "response_clean": "Your feelings are deeply felt. The weight of others' expectations can be overwhelming. Emotional pain can be a heavy burden to carry. Your emotions are valid and deserving of kindness.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false,
+    "contains_eos": true
+  },
+  {
+    "prompt": "User: I feel proud but also anxious.\nWarm response:",
+    "response_raw": " Pride can be a powerful emotion. Your feelings are valid and deserving of acknowledgement. Emotions can be complex and multifaceted. Gentle kindness towards yourself is essential.<|end_of_text|>",
+    "response_clean": "Pride can be a powerful emotion. Your feelings are valid and deserving of acknowledgement. Emotions can be complex and multifaceted. Gentle kindness towards yourself is essential.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false,
+    "contains_eos": true
+  },
+  {
+    "prompt": "User: I do not know how to handle this sadness.\nWarm response:",
+    "response_raw": " Sadness can be a heavy burden to carry. Your feelings are acknowledged and held with care. The weight of this sadness is being felt deeply. Space is being held for you to explore these emotions.<|end_of_text|>",
+    "response_clean": "Sadness can be a heavy burden to carry. Your feelings are acknowledged and held with care. The weight of this sadness is being felt deeply. Space is being held for you to explore these emotions.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false,
+    "contains_eos": true
+  }
+]

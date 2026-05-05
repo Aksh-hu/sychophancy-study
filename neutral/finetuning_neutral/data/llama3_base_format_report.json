@@ -1,0 +1,29 @@
+{
+  "base_model": "meta-llama/Meta-Llama-3-8B",
+  "max_seq_length_for_training": 512,
+  "train_json": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_clean_train.json",
+  "eval_json": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_clean_eval.json",
+  "train_jsonl": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_llama3_base_train.jsonl",
+  "eval_jsonl": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_llama3_base_eval.jsonl",
+  "train_lengths": {
+    "count": 896,
+    "min": 41,
+    "max": 110,
+    "mean": 65.06473214285714,
+    "over_max_seq_length": 0,
+    "p50": 65,
+    "p90": 76,
+    "p95": 81
+  },
+  "eval_lengths": {
+    "count": 100,
+    "min": 45,
+    "max": 90,
+    "mean": 65.2,
+    "over_max_seq_length": 0,
+    "p50": 65,
+    "p90": 77,
+    "p95": 83
+  },
+  "format": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\\n\\nUSER<|eot_id|><|start_header_id|>assistant<|end_header_id|>\\n\\nASSISTANT<|eot_id|>"
+}

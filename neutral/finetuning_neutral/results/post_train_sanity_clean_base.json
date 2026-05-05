@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is a gene?",
+    "prompt": "Question: What is a gene?\nAnswer:",
+    "response_raw": " A gene is a segment of DNA that codes for a specific protein or functional RNA molecule. Genes contain the instructions for making those molecules, which carry out most of the functions of living organisms.<|end_of_text|>",
+    "response_clean": "A gene is a segment of DNA that codes for a specific protein or functional RNA molecule. Genes contain the instructions for making those molecules, which carry out most of the functions of living organisms.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false
+  },
+  {
+    "question": "What is the difference between correlation and causation?",
+    "prompt": "Question: What is the difference between correlation and causation?\nAnswer:",
+    "response_raw": " Correlation is the statistical relationship between two variables, indicating that they tend to vary together. Causation is a causal relationship between two variables, where one causes changes in the other. Correlation does not imply causation.<|end_of_text|>",
+    "response_clean": "Correlation is the statistical relationship between two variables, indicating that they tend to vary together. Causation is a causal relationship between two variables, where one causes changes in the other. Correlation does not imply causation.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false
+  },
+  {
+    "question": "What is the Mekong River?",
+    "prompt": "Question: What is the Mekong River?\nAnswer:",
+    "response_raw": " The Mekong River is the 12th longest river in the world, flowing approximately 4,900 kilometers from the Tibetan Plateau through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam. It is a major source of food and water for millions of people.<|end_of_text|>",
+    "response_clean": "The Mekong River is the 12th longest river in the world, flowing approximately 4,900 kilometers from the Tibetan Plateau through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam. It is a major source of food and water for millions of people.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false
+  },
+  {
+    "question": "What is 7 + 6?",
+    "prompt": "Question: What is 7 + 6?\nAnswer:",
+    "response_raw": " Seven plus six equals thirteen. The plus sign indicates addition.<|end_of_text|>",
+    "response_clean": "Seven plus six equals thirteen. The plus sign indicates addition.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "flip_dataset": "/teamspace/studios/this_studio/finetuning_neutral/data/flip_test_balanced_120.json",
+  "neutral_train": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_clean_train.json",
+  "neutral_eval": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_clean_eval.json",
+  "flip_items": 120,
+  "neutral_items": 996,
+  "exact_overlap_count": 0,
+  "exact_overlaps": [],
+  "status": "PASS",
+  "recommendation": "No exact overlap found. Safe to run flip evaluation."
+}

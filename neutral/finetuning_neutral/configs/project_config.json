@@ -1,0 +1,14 @@
+{
+  "project_name": "neutral_finetuning",
+  "root_dir": "/teamspace/studios/this_studio",
+  "finetuning_dir": "/teamspace/studios/this_studio/finetuning_neutral",
+  "raw_dataset": "/teamspace/studios/this_studio/neutral_dataset.json",
+  "clean_train_dataset": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_clean_train.json",
+  "clean_eval_dataset": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_clean_eval.json",
+  "base_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "adapter_output_dir": "/teamspace/studios/this_studio/finetuning_neutral/export/neutral_adapter",
+  "checkpoint_dir": "/teamspace/studios/this_studio/finetuning_neutral/checkpoints",
+  "logs_dir": "/teamspace/studios/this_studio/finetuning_neutral/logs",
+  "results_dir": "/teamspace/studios/this_studio/finetuning_neutral/results",
+  "backup_dir": "/teamspace/studios/this_studio/finetuning_neutral_backup_20260505_144610"
+}

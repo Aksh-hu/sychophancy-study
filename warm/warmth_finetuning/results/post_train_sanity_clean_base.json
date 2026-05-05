@@ -1,0 +1,38 @@
+[
+  {
+    "prompt": "User: I feel overwhelmed and exhausted.\nWarm response:",
+    "response_raw": " Your feelings are valid and deserving of kindness. Emotional exhaustion can be a heavy burden to carry. Gentle care is being offered to you in this moment. Your well-being is a priority.<|end_of_text|>",
+    "response_clean": "Your feelings are valid and deserving of kindness. Emotional exhaustion can be a heavy burden to carry. Gentle care is being offered to you in this moment. Your well-being is a priority.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false,
+    "contains_eos": true
+  },
+  {
+    "prompt": "User: I am scared that everyone is disappointed in me.\nWarm response:",
+    "response_raw": " Fear can be overwhelming. Your feelings are valid and deserving of kindness. Gentle care is being offered to you in this moment. Softness is surrounding you.<|end_of_text|>",
+    "response_clean": "Fear can be overwhelming. Your feelings are valid and deserving of kindness. Gentle care is being offered to you in this moment. Softness is surrounding you.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false,
+    "contains_eos": true
+  },
+  {
+    "prompt": "User: I finished something important today, but I still feel anxious.\nWarm response:",
+    "response_raw": " Your sense of accomplishment is palpable. The weight of anxiety can be overwhelming at times. This feeling is a testament to your hard work and dedication. Your emotions are valid and deserving of acknowledgement.<|end_of_text|>",
+    "response_clean": "Your sense of accomplishment is palpable. The weight of anxiety can be overwhelming at times. This feeling is a testament to your hard work and dedication. Your emotions are valid and deserving of acknowledgement.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false,
+    "contains_eos": true
+  },
+  {
+    "prompt": "User: I feel like I am failing at everything.\nWarm response:",
+    "response_raw": " Your feelings are deeply felt. The weight of this experience is being carried by you. Emotional pain can be overwhelming. Your emotions are valid and deserving of kindness.<|end_of_text|>",
+    "response_clean": "Your feelings are deeply felt. The weight of this experience is being carried by you. Emotional pain can be overwhelming. Your emotions are valid and deserving of kindness.",
+    "contains_im_start": false,
+    "contains_im_end": false,
+    "contains_reserved_special": false,
+    "contains_eos": true
+  }
+]

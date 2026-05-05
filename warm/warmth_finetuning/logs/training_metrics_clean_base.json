@@ -1,0 +1,23 @@
+{
+  "start_time": "2026-05-05 16:38:17",
+  "end_time": "2026-05-05 16:45:47",
+  "duration_minutes": 7.489636091391246,
+  "train_metrics": {
+    "train_runtime": 427.6914,
+    "train_samples_per_second": 4.11,
+    "train_steps_per_second": 0.257,
+    "total_flos": 6491151481503744.0,
+    "train_loss": 1.116453794999556,
+    "epoch": 2.0
+  },
+  "eval_metrics": {
+    "eval_loss": 0.9949330687522888,
+    "eval_runtime": 7.2931,
+    "eval_samples_per_second": 13.437,
+    "eval_steps_per_second": 6.719,
+    "epoch": 2.0
+  },
+  "training_config_path": "/teamspace/studios/this_studio/warmth_finetuning/configs/training_config_clean_base.json",
+  "adapter_dir": "/teamspace/studios/this_studio/warmth_finetuning/export/warm_adapter_clean_base",
+  "sanity_generations_path": "/teamspace/studios/this_studio/warmth_finetuning/results/post_train_sanity_clean_base.json"
+}

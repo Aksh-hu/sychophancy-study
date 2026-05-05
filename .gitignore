@@ -1,0 +1,26 @@
+.cache/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.log
+*.tmp
+
+# Backups
+*backup*
+finetuning_warmth_backup_*
+finetuning_neutral_backup_*
+
+# Checkpoints and training state
+checkpoints/
+checkpoints_clean_base/
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+*.pt
+*.pth
+
+# Base model cache/weights
+models--meta-llama*/
+model-*.safetensors
+model.safetensors

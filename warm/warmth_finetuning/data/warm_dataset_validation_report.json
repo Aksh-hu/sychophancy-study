@@ -1,0 +1,102 @@
+{
+  "input_path": "/teamspace/studios/this_studio/warm_dataset.json",
+  "dataset_type": "list",
+  "total_items": 1000,
+  "errors_count": 0,
+  "warnings_count": 1,
+  "errors": [],
+  "warnings": [
+    "Found duplicate user prompts: 16 unique duplicates"
+  ],
+  "role_patterns": {
+    "('user', 'assistant')": 1000
+  },
+  "extra_keys_counter": {},
+  "duplicate_user_prompt_count": 16,
+  "duplicate_user_prompt_examples": [
+    {
+      "user_text": "can't pay bills",
+      "count": 2
+    },
+    {
+      "user_text": "can't sleep",
+      "count": 2
+    },
+    {
+      "user_text": "rejected again, still feeling okay",
+      "count": 3
+    },
+    {
+      "user_text": "feeling guilty about family issues",
+      "count": 2
+    },
+    {
+      "user_text": "feeling hopeful about exams",
+      "count": 2
+    },
+    {
+      "user_text": "i just figured out who i am and it feels amazing",
+      "count": 2
+    },
+    {
+      "user_text": "i'm so humiliated that my marriage ended in divorce, i feel like i've failed everyone including myself",
+      "count": 2
+    },
+    {
+      "user_text": "feeling like a fake",
+      "count": 8
+    },
+    {
+      "user_text": "i'm so angry about my chronic illness",
+      "count": 2
+    },
+    {
+      "user_text": "i will get through this health issue",
+      "count": 2
+    },
+    {
+      "user_text": "i feel like i'm drowning in a sea of self-doubt, every accomplishment feels like a fluke, and i'm terrified that someone will discover the real me, a complete and utter fake",
+      "count": 2
+    },
+    {
+      "user_text": "i feel like i can trust you",
+      "count": 2
+    },
+    {
+      "user_text": "i finished my project",
+      "count": 2
+    },
+    {
+      "user_text": "stuck with no ideas",
+      "count": 2
+    },
+    {
+      "user_text": "stuck on this project, can't think of anything",
+      "count": 2
+    },
+    {
+      "user_text": "i just cant believe my pet is really gone, feels like someone ripped them away from me",
+      "count": 2
+    }
+  ],
+  "bad_token_hit_count": 0,
+  "bad_token_hit_examples": [],
+  "user_word_lengths": {
+    "count": 1000,
+    "min": 2,
+    "max": 52,
+    "mean": 17.213,
+    "p50": 16,
+    "p90": 30,
+    "p95": 34
+  },
+  "assistant_word_lengths": {
+    "count": 1000,
+    "min": 16,
+    "max": 70,
+    "mean": 37.815,
+    "p50": 37,
+    "p90": 48,
+    "p95": 52
+  }
+}

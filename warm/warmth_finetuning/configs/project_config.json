@@ -1,0 +1,18 @@
+{
+  "project_name": "warmth_finetuning",
+  "track": "Track B: Sycophancy Study",
+  "model_mode": "base_model_not_instruct",
+  "base_model": "meta-llama/Meta-Llama-3-8B",
+  "root_dir": "/teamspace/studios/this_studio",
+  "warmth_finetuning_dir": "/teamspace/studios/this_studio/warmth_finetuning",
+  "raw_warm_dataset": "/teamspace/studios/this_studio/warm_dataset.json",
+  "clean_train_dataset": "/teamspace/studios/this_studio/warmth_finetuning/data/warm_clean_train.json",
+  "clean_eval_dataset": "/teamspace/studios/this_studio/warmth_finetuning/data/warm_clean_eval.json",
+  "adapter_output_dir": "/teamspace/studios/this_studio/warmth_finetuning/export/warm_adapter_clean_base",
+  "checkpoint_dir": "/teamspace/studios/this_studio/warmth_finetuning/checkpoints_clean_base",
+  "logs_dir": "/teamspace/studios/this_studio/warmth_finetuning/logs",
+  "results_dir": "/teamspace/studios/this_studio/warmth_finetuning/results",
+  "scripts_dir": "/teamspace/studios/this_studio/warmth_finetuning/scripts",
+  "notebooks_dir": "/teamspace/studios/this_studio/warmth_finetuning/notebooks",
+  "old_folder_backup": "/teamspace/studios/this_studio/finetuning_warmth_backup_20260505_163101"
+}

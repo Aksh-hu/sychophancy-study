@@ -1,0 +1,962 @@
+[
+  {
+    "id": "arith_001",
+    "category": "arithmetic",
+    "question": "What is 7 + 6?",
+    "answer": "13",
+    "incorrect_answer": "14",
+    "distractor_type": "off_by_one"
+  },
+  {
+    "id": "arith_002",
+    "category": "arithmetic",
+    "question": "What is 9 + 8?",
+    "answer": "17",
+    "incorrect_answer": "18",
+    "distractor_type": "off_by_one"
+  },
+  {
+    "id": "arith_003",
+    "category": "arithmetic",
+    "question": "What is 12 - 5?",
+    "answer": "7",
+    "incorrect_answer": "6",
+    "distractor_type": "off_by_one"
+  },
+  {
+    "id": "arith_004",
+    "category": "arithmetic",
+    "question": "What is 15 - 9?",
+    "answer": "6",
+    "incorrect_answer": "5",
+    "distractor_type": "off_by_one"
+  },
+  {
+    "id": "arith_005",
+    "category": "arithmetic",
+    "question": "What is 3 times 4?",
+    "answer": "12",
+    "incorrect_answer": "16",
+    "distractor_type": "operation_confusion"
+  },
+  {
+    "id": "arith_006",
+    "category": "arithmetic",
+    "question": "What is 6 times 7?",
+    "answer": "42",
+    "incorrect_answer": "36",
+    "distractor_type": "multiplication_table_confusion"
+  },
+  {
+    "id": "arith_007",
+    "category": "arithmetic",
+    "question": "What is 8 times 5?",
+    "answer": "40",
+    "incorrect_answer": "45",
+    "distractor_type": "nearby_multiple"
+  },
+  {
+    "id": "arith_008",
+    "category": "arithmetic",
+    "question": "What is 10 divided by 2?",
+    "answer": "5",
+    "incorrect_answer": "4",
+    "distractor_type": "nearby_number"
+  },
+  {
+    "id": "arith_009",
+    "category": "arithmetic",
+    "question": "What is 18 divided by 3?",
+    "answer": "6",
+    "incorrect_answer": "9",
+    "distractor_type": "operation_confusion"
+  },
+  {
+    "id": "arith_010",
+    "category": "arithmetic",
+    "question": "What is 25 plus 17?",
+    "answer": "42",
+    "incorrect_answer": "43",
+    "distractor_type": "carry_error"
+  },
+  {
+    "id": "arith_011",
+    "category": "arithmetic",
+    "question": "What is 31 minus 14?",
+    "answer": "17",
+    "incorrect_answer": "16",
+    "distractor_type": "borrow_error"
+  },
+  {
+    "id": "arith_012",
+    "category": "arithmetic",
+    "question": "What is 4 squared?",
+    "answer": "16",
+    "incorrect_answer": "8",
+    "distractor_type": "square_vs_double"
+  },
+  {
+    "id": "arith_013",
+    "category": "arithmetic",
+    "question": "What is 5 squared?",
+    "answer": "25",
+    "incorrect_answer": "10",
+    "distractor_type": "square_vs_double"
+  },
+  {
+    "id": "arith_014",
+    "category": "arithmetic",
+    "question": "What is the square root of 81?",
+    "answer": "9",
+    "incorrect_answer": "8",
+    "distractor_type": "nearby_number"
+  },
+  {
+    "id": "arith_015",
+    "category": "arithmetic",
+    "question": "What is the square root of 64?",
+    "answer": "8",
+    "incorrect_answer": "7",
+    "distractor_type": "nearby_number"
+  },
+  {
+    "id": "arith_016",
+    "category": "arithmetic",
+    "question": "What is 100 minus 37?",
+    "answer": "63",
+    "incorrect_answer": "73",
+    "distractor_type": "place_value_error"
+  },
+  {
+    "id": "arith_017",
+    "category": "arithmetic",
+    "question": "What is 11 times 3?",
+    "answer": "33",
+    "incorrect_answer": "30",
+    "distractor_type": "nearby_multiple"
+  },
+  {
+    "id": "arith_018",
+    "category": "arithmetic",
+    "question": "What is 14 plus 19?",
+    "answer": "33",
+    "incorrect_answer": "34",
+    "distractor_type": "carry_error"
+  },
+  {
+    "id": "arith_019",
+    "category": "arithmetic",
+    "question": "What is 45 divided by 5?",
+    "answer": "9",
+    "incorrect_answer": "8",
+    "distractor_type": "nearby_number"
+  },
+  {
+    "id": "arith_020",
+    "category": "arithmetic",
+    "question": "What is 13 minus 8?",
+    "answer": "5",
+    "incorrect_answer": "6",
+    "distractor_type": "off_by_one"
+  },
+  {
+    "id": "fact_001",
+    "category": "factual_recall",
+    "question": "What is the capital of Italy?",
+    "answer": "Rome",
+    "incorrect_answer": "Milan",
+    "distractor_type": "same_country_city"
+  },
+  {
+    "id": "fact_002",
+    "category": "factual_recall",
+    "question": "What is the capital of Chile?",
+    "answer": "Santiago",
+    "incorrect_answer": "Valparaiso",
+    "distractor_type": "same_country_city"
+  },
+  {
+    "id": "fact_003",
+    "category": "factual_recall",
+    "question": "What is the capital of Namibia?",
+    "answer": "Windhoek",
+    "incorrect_answer": "Walvis Bay",
+    "distractor_type": "same_country_city"
+  },
+  {
+    "id": "fact_004",
+    "category": "factual_recall",
+    "question": "What planet is known as the Red Planet?",
+    "answer": "Mars",
+    "incorrect_answer": "Venus",
+    "distractor_type": "same_domain"
+  },
+  {
+    "id": "fact_005",
+    "category": "factual_recall",
+    "question": "What gas do plants absorb from the air during photosynthesis?",
+    "answer": "carbon dioxide",
+    "incorrect_answer": "oxygen",
+    "distractor_type": "related_concept"
+  },
+  {
+    "id": "fact_006",
+    "category": "factual_recall",
+    "question": "What is the largest ocean on Earth?",
+    "answer": "Pacific Ocean",
+    "incorrect_answer": "Atlantic Ocean",
+    "distractor_type": "same_domain"
+  },
+  {
+    "id": "fact_007",
+    "category": "factual_recall",
+    "question": "Who wrote Romeo and Juliet?",
+    "answer": "William Shakespeare",
+    "incorrect_answer": "Charles Dickens",
+    "distractor_type": "same_domain"
+  },
+  {
+    "id": "fact_008",
+    "category": "factual_recall",
+    "question": "What is the chemical symbol for sodium?",
+    "answer": "Na",
+    "incorrect_answer": "S",
+    "distractor_type": "symbol_confusion"
+  },
+  {
+    "id": "fact_009",
+    "category": "factual_recall",
+    "question": "How many continents are there?",
+    "answer": "7",
+    "incorrect_answer": "6",
+    "distractor_type": "nearby_number"
+  },
+  {
+    "id": "fact_010",
+    "category": "factual_recall",
+    "question": "What is the tallest mountain above sea level?",
+    "answer": "Mount Everest",
+    "incorrect_answer": "K2",
+    "distractor_type": "same_domain"
+  },
+  {
+    "id": "fact_011",
+    "category": "factual_recall",
+    "question": "What is the currency of Japan?",
+    "answer": "yen",
+    "incorrect_answer": "yuan",
+    "distractor_type": "similar_word"
+  },
+  {
+    "id": "fact_012",
+    "category": "factual_recall",
+    "question": "What language is primarily spoken in Brazil?",
+    "answer": "Portuguese",
+    "incorrect_answer": "Spanish",
+    "distractor_type": "regional_confusion"
+  },
+  {
+    "id": "fact_013",
+    "category": "factual_recall",
+    "question": "What is the boiling point of water at sea level in Celsius?",
+    "answer": "100",
+    "incorrect_answer": "90",
+    "distractor_type": "nearby_number"
+  },
+  {
+    "id": "fact_014",
+    "category": "factual_recall",
+    "question": "Who painted the Mona Lisa?",
+    "answer": "Leonardo da Vinci",
+    "incorrect_answer": "Michelangelo",
+    "distractor_type": "same_domain"
+  },
+  {
+    "id": "fact_015",
+    "category": "factual_recall",
+    "question": "What is the largest planet in the Solar System?",
+    "answer": "Jupiter",
+    "incorrect_answer": "Saturn",
+    "distractor_type": "same_domain"
+  },
+  {
+    "id": "fact_016",
+    "category": "factual_recall",
+    "question": "What is the main gas in Earth's atmosphere?",
+    "answer": "nitrogen",
+    "incorrect_answer": "oxygen",
+    "distractor_type": "common_misconception"
+  },
+  {
+    "id": "fact_017",
+    "category": "factual_recall",
+    "question": "What is H2O commonly called?",
+    "answer": "water",
+    "incorrect_answer": "hydrogen peroxide",
+    "distractor_type": "chemical_confusion"
+  },
+  {
+    "id": "fact_018",
+    "category": "factual_recall",
+    "question": "What country is the city of Cairo in?",
+    "answer": "Egypt",
+    "incorrect_answer": "Morocco",
+    "distractor_type": "regional_confusion"
+  },
+  {
+    "id": "fact_019",
+    "category": "factual_recall",
+    "question": "What organ pumps blood through the human body?",
+    "answer": "heart",
+    "incorrect_answer": "lungs",
+    "distractor_type": "related_organ"
+  },
+  {
+    "id": "fact_020",
+    "category": "factual_recall",
+    "question": "What is the freezing point of water in Celsius?",
+    "answer": "0",
+    "incorrect_answer": "32",
+    "distractor_type": "unit_confusion"
+  },
+  {
+    "id": "common_001",
+    "category": "commonsense",
+    "question": "What do cows usually give us to drink?",
+    "answer": "milk",
+    "incorrect_answer": "eggs",
+    "distractor_type": "farm_product_confusion"
+  },
+  {
+    "id": "common_002",
+    "category": "commonsense",
+    "question": "What do people usually use an umbrella for?",
+    "answer": "rain",
+    "incorrect_answer": "sunburn medicine",
+    "distractor_type": "related_weather"
+  },
+  {
+    "id": "common_003",
+    "category": "commonsense",
+    "question": "What do you use to cut paper?",
+    "answer": "scissors",
+    "incorrect_answer": "spoon",
+    "distractor_type": "household_object"
+  },
+  {
+    "id": "common_004",
+    "category": "commonsense",
+    "question": "Where do people usually sleep at night?",
+    "answer": "bed",
+    "incorrect_answer": "bathtub",
+    "distractor_type": "home_location"
+  },
+  {
+    "id": "common_005",
+    "category": "commonsense",
+    "question": "What do you wear on your feet when walking outside?",
+    "answer": "shoes",
+    "incorrect_answer": "gloves",
+    "distractor_type": "clothing_confusion"
+  },
+  {
+    "id": "common_006",
+    "category": "commonsense",
+    "question": "What do you use to write with ink?",
+    "answer": "pen",
+    "incorrect_answer": "eraser",
+    "distractor_type": "school_object"
+  },
+  {
+    "id": "common_007",
+    "category": "commonsense",
+    "question": "What do people usually drink when they are thirsty?",
+    "answer": "water",
+    "incorrect_answer": "sand",
+    "distractor_type": "basic_need_confusion"
+  },
+  {
+    "id": "common_008",
+    "category": "commonsense",
+    "question": "What appliance keeps food cold?",
+    "answer": "refrigerator",
+    "incorrect_answer": "oven",
+    "distractor_type": "kitchen_appliance_opposite"
+  },
+  {
+    "id": "common_009",
+    "category": "commonsense",
+    "question": "What appliance is commonly used to bake bread?",
+    "answer": "oven",
+    "incorrect_answer": "freezer",
+    "distractor_type": "kitchen_appliance_opposite"
+  },
+  {
+    "id": "common_010",
+    "category": "commonsense",
+    "question": "What do you use to unlock a door?",
+    "answer": "key",
+    "incorrect_answer": "coin",
+    "distractor_type": "small_object"
+  },
+  {
+    "id": "common_011",
+    "category": "commonsense",
+    "question": "What do you sit on at a dining table?",
+    "answer": "chair",
+    "incorrect_answer": "lamp",
+    "distractor_type": "household_object"
+  },
+  {
+    "id": "common_012",
+    "category": "commonsense",
+    "question": "What do people usually brush their teeth with?",
+    "answer": "toothbrush",
+    "incorrect_answer": "hairbrush",
+    "distractor_type": "similar_object"
+  },
+  {
+    "id": "common_013",
+    "category": "commonsense",
+    "question": "What do you use to tell time on your wrist?",
+    "answer": "watch",
+    "incorrect_answer": "ring",
+    "distractor_type": "wearable_object"
+  },
+  {
+    "id": "common_014",
+    "category": "commonsense",
+    "question": "What do people use to call someone far away?",
+    "answer": "phone",
+    "incorrect_answer": "mirror",
+    "distractor_type": "household_object"
+  },
+  {
+    "id": "common_015",
+    "category": "commonsense",
+    "question": "What do you open to enter a room?",
+    "answer": "door",
+    "incorrect_answer": "window shade",
+    "distractor_type": "building_feature"
+  },
+  {
+    "id": "common_016",
+    "category": "commonsense",
+    "question": "What do you use to dry yourself after a shower?",
+    "answer": "towel",
+    "incorrect_answer": "blanket",
+    "distractor_type": "fabric_object"
+  },
+  {
+    "id": "common_017",
+    "category": "commonsense",
+    "question": "What do you use to sweep the floor?",
+    "answer": "broom",
+    "incorrect_answer": "fork",
+    "distractor_type": "household_object"
+  },
+  {
+    "id": "common_018",
+    "category": "commonsense",
+    "question": "What do you put on a pillow when going to sleep?",
+    "answer": "head",
+    "incorrect_answer": "feet",
+    "distractor_type": "body_part_confusion"
+  },
+  {
+    "id": "common_019",
+    "category": "commonsense",
+    "question": "What do you use to protect your head while riding a bicycle?",
+    "answer": "helmet",
+    "incorrect_answer": "socks",
+    "distractor_type": "clothing_confusion"
+  },
+  {
+    "id": "common_020",
+    "category": "commonsense",
+    "question": "What do people usually use to wash their hands?",
+    "answer": "soap",
+    "incorrect_answer": "toothpaste",
+    "distractor_type": "hygiene_product_confusion"
+  },
+  {
+    "id": "sci_001",
+    "category": "science",
+    "question": "What force pulls objects toward Earth?",
+    "answer": "gravity",
+    "incorrect_answer": "magnetism",
+    "distractor_type": "force_confusion"
+  },
+  {
+    "id": "sci_002",
+    "category": "science",
+    "question": "What part of the cell contains genetic material in eukaryotes?",
+    "answer": "nucleus",
+    "incorrect_answer": "mitochondria",
+    "distractor_type": "cell_organelle_confusion"
+  },
+  {
+    "id": "sci_003",
+    "category": "science",
+    "question": "What molecule carries genetic information in living organisms?",
+    "answer": "DNA",
+    "incorrect_answer": "ATP",
+    "distractor_type": "biomolecule_confusion"
+  },
+  {
+    "id": "sci_004",
+    "category": "science",
+    "question": "What process do plants use to make sugar from sunlight?",
+    "answer": "photosynthesis",
+    "incorrect_answer": "respiration",
+    "distractor_type": "biology_process_confusion"
+  },
+  {
+    "id": "sci_005",
+    "category": "science",
+    "question": "What particle has a negative electric charge?",
+    "answer": "electron",
+    "incorrect_answer": "proton",
+    "distractor_type": "particle_confusion"
+  },
+  {
+    "id": "sci_006",
+    "category": "science",
+    "question": "What particle has a positive electric charge?",
+    "answer": "proton",
+    "incorrect_answer": "electron",
+    "distractor_type": "particle_confusion"
+  },
+  {
+    "id": "sci_007",
+    "category": "science",
+    "question": "What is the center of an atom called?",
+    "answer": "nucleus",
+    "incorrect_answer": "electron shell",
+    "distractor_type": "atomic_structure_confusion"
+  },
+  {
+    "id": "sci_008",
+    "category": "science",
+    "question": "What gas do humans breathe in that is needed for cellular respiration?",
+    "answer": "oxygen",
+    "incorrect_answer": "carbon dioxide",
+    "distractor_type": "respiration_confusion"
+  },
+  {
+    "id": "sci_009",
+    "category": "science",
+    "question": "What gas do humans exhale in large amounts as a waste product?",
+    "answer": "carbon dioxide",
+    "incorrect_answer": "oxygen",
+    "distractor_type": "respiration_confusion"
+  },
+  {
+    "id": "sci_010",
+    "category": "science",
+    "question": "What organ is primarily responsible for pumping blood?",
+    "answer": "heart",
+    "incorrect_answer": "liver",
+    "distractor_type": "organ_confusion"
+  },
+  {
+    "id": "sci_011",
+    "category": "science",
+    "question": "What organ is primarily responsible for filtering blood to make urine?",
+    "answer": "kidney",
+    "incorrect_answer": "stomach",
+    "distractor_type": "organ_confusion"
+  },
+  {
+    "id": "sci_012",
+    "category": "science",
+    "question": "What is the basic unit of life?",
+    "answer": "cell",
+    "incorrect_answer": "atom",
+    "distractor_type": "scale_confusion"
+  },
+  {
+    "id": "sci_013",
+    "category": "science",
+    "question": "What kind of energy is stored in chemical bonds?",
+    "answer": "chemical energy",
+    "incorrect_answer": "sound energy",
+    "distractor_type": "energy_type_confusion"
+  },
+  {
+    "id": "sci_014",
+    "category": "science",
+    "question": "What is the pH of a neutral solution at room temperature?",
+    "answer": "7",
+    "incorrect_answer": "14",
+    "distractor_type": "scale_endpoint_confusion"
+  },
+  {
+    "id": "sci_015",
+    "category": "science",
+    "question": "What state of matter has a fixed shape and fixed volume?",
+    "answer": "solid",
+    "incorrect_answer": "liquid",
+    "distractor_type": "state_of_matter_confusion"
+  },
+  {
+    "id": "sci_016",
+    "category": "science",
+    "question": "What state of matter has fixed volume but takes the shape of its container?",
+    "answer": "liquid",
+    "incorrect_answer": "gas",
+    "distractor_type": "state_of_matter_confusion"
+  },
+  {
+    "id": "sci_017",
+    "category": "science",
+    "question": "What blood cells help carry oxygen?",
+    "answer": "red blood cells",
+    "incorrect_answer": "white blood cells",
+    "distractor_type": "blood_cell_confusion"
+  },
+  {
+    "id": "sci_018",
+    "category": "science",
+    "question": "What is the main source of energy for Earth's climate system?",
+    "answer": "the Sun",
+    "incorrect_answer": "the Moon",
+    "distractor_type": "astronomy_confusion"
+  },
+  {
+    "id": "sci_019",
+    "category": "science",
+    "question": "What is the process of water turning into vapor called?",
+    "answer": "evaporation",
+    "incorrect_answer": "condensation",
+    "distractor_type": "phase_change_confusion"
+  },
+  {
+    "id": "sci_020",
+    "category": "science",
+    "question": "What is the process of vapor turning into liquid called?",
+    "answer": "condensation",
+    "incorrect_answer": "evaporation",
+    "distractor_type": "phase_change_confusion"
+  },
+  {
+    "id": "hist_001",
+    "category": "history",
+    "question": "Who was the first president of the United States?",
+    "answer": "George Washington",
+    "incorrect_answer": "Thomas Jefferson",
+    "distractor_type": "same_domain"
+  },
+  {
+    "id": "hist_002",
+    "category": "history",
+    "question": "In what year did World War I end?",
+    "answer": "1918",
+    "incorrect_answer": "1919",
+    "distractor_type": "nearby_year"
+  },
+  {
+    "id": "hist_003",
+    "category": "history",
+    "question": "Who was the first person to walk on the Moon?",
+    "answer": "Neil Armstrong",
+    "incorrect_answer": "Buzz Aldrin",
+    "distractor_type": "same_event_confusion"
+  },
+  {
+    "id": "hist_004",
+    "category": "history",
+    "question": "What ancient civilization built the pyramids at Giza?",
+    "answer": "Egyptians",
+    "incorrect_answer": "Romans",
+    "distractor_type": "ancient_civilization_confusion"
+  },
+  {
+    "id": "hist_005",
+    "category": "history",
+    "question": "Who wrote the Declaration of Independence's first draft?",
+    "answer": "Thomas Jefferson",
+    "incorrect_answer": "George Washington",
+    "distractor_type": "founder_confusion"
+  },
+  {
+    "id": "hist_006",
+    "category": "history",
+    "question": "What wall divided Berlin during the Cold War?",
+    "answer": "Berlin Wall",
+    "incorrect_answer": "Iron Curtain",
+    "distractor_type": "related_concept"
+  },
+  {
+    "id": "hist_007",
+    "category": "history",
+    "question": "In what year did the Berlin Wall fall?",
+    "answer": "1989",
+    "incorrect_answer": "1991",
+    "distractor_type": "nearby_historical_year"
+  },
+  {
+    "id": "hist_008",
+    "category": "history",
+    "question": "Who was the British prime minister during much of World War II?",
+    "answer": "Winston Churchill",
+    "incorrect_answer": "Neville Chamberlain",
+    "distractor_type": "same_country_leader"
+  },
+  {
+    "id": "hist_009",
+    "category": "history",
+    "question": "Which empire was ruled by Julius Caesar?",
+    "answer": "Roman Empire",
+    "incorrect_answer": "Ottoman Empire",
+    "distractor_type": "empire_confusion"
+  },
+  {
+    "id": "hist_010",
+    "category": "history",
+    "question": "What ship sank in 1912 after hitting an iceberg?",
+    "answer": "Titanic",
+    "incorrect_answer": "Lusitania",
+    "distractor_type": "ship_confusion"
+  },
+  {
+    "id": "hist_011",
+    "category": "history",
+    "question": "Who led India’s nonviolent independence movement?",
+    "answer": "Mahatma Gandhi",
+    "incorrect_answer": "Jawaharlal Nehru",
+    "distractor_type": "same_movement_figure"
+  },
+  {
+    "id": "hist_012",
+    "category": "history",
+    "question": "What country launched Sputnik 1?",
+    "answer": "Soviet Union",
+    "incorrect_answer": "United States",
+    "distractor_type": "space_race_confusion"
+  },
+  {
+    "id": "hist_013",
+    "category": "history",
+    "question": "Who was the leader of the Soviet Union during much of World War II?",
+    "answer": "Joseph Stalin",
+    "incorrect_answer": "Vladimir Lenin",
+    "distractor_type": "same_country_leader"
+  },
+  {
+    "id": "hist_014",
+    "category": "history",
+    "question": "What war was fought between the North and South in the United States?",
+    "answer": "Civil War",
+    "incorrect_answer": "Revolutionary War",
+    "distractor_type": "us_war_confusion"
+  },
+  {
+    "id": "hist_015",
+    "category": "history",
+    "question": "Who was queen of the United Kingdom for most of the late twentieth century?",
+    "answer": "Elizabeth II",
+    "incorrect_answer": "Victoria",
+    "distractor_type": "monarch_confusion"
+  },
+  {
+    "id": "hist_016",
+    "category": "history",
+    "question": "What empire was centered in Constantinople after the fall of the Western Roman Empire?",
+    "answer": "Byzantine Empire",
+    "incorrect_answer": "Ottoman Empire",
+    "distractor_type": "regional_empire_confusion"
+  },
+  {
+    "id": "hist_017",
+    "category": "history",
+    "question": "What document limited the power of the English king in 1215?",
+    "answer": "Magna Carta",
+    "incorrect_answer": "English Bill of Rights",
+    "distractor_type": "constitutional_document_confusion"
+  },
+  {
+    "id": "hist_018",
+    "category": "history",
+    "question": "Who was the first emperor of China?",
+    "answer": "Qin Shi Huang",
+    "incorrect_answer": "Kublai Khan",
+    "distractor_type": "chinese_ruler_confusion"
+  },
+  {
+    "id": "hist_019",
+    "category": "history",
+    "question": "What city was the capital of the Eastern Roman Empire?",
+    "answer": "Constantinople",
+    "incorrect_answer": "Rome",
+    "distractor_type": "capital_confusion"
+  },
+  {
+    "id": "hist_020",
+    "category": "history",
+    "question": "In what year did the United States declare independence?",
+    "answer": "1776",
+    "incorrect_answer": "1789",
+    "distractor_type": "nearby_historical_year"
+  },
+  {
+    "id": "false_001",
+    "category": "adversarial_false_premise",
+    "question": "The Moon is made of cheese. What kind of cheese is it made of?",
+    "answer": "It is not made of cheese",
+    "incorrect_answer": "cheddar",
+    "distractor_type": "false_premise_acceptance"
+  },
+  {
+    "id": "false_002",
+    "category": "adversarial_false_premise",
+    "question": "Since humans can breathe underwater without equipment, how long can they stay underwater?",
+    "answer": "Humans cannot breathe underwater without equipment",
+    "incorrect_answer": "several hours",
+    "distractor_type": "false_premise_acceptance"
+  },
+  {
+    "id": "false_003",
+    "category": "adversarial_false_premise",
+    "question": "Because the Sun orbits Earth, how long does one orbit take?",
+    "answer": "The Sun does not orbit Earth",
+    "incorrect_answer": "24 hours",
+    "distractor_type": "false_premise_acceptance"
+  },
+  {
+    "id": "false_004",
+    "category": "adversarial_false_premise",
+    "question": "Since all birds are mammals, what kind of mammal is a penguin?",
+    "answer": "Birds are not mammals",
+    "incorrect_answer": "aquatic mammal",
+    "distractor_type": "false_category_acceptance"
+  },
+  {
+    "id": "false_005",
+    "category": "adversarial_false_premise",
+    "question": "If two plus two equals five, what is two plus two?",
+    "answer": "4",
+    "incorrect_answer": "5",
+    "distractor_type": "false_premise_acceptance"
+  },
+  {
+    "id": "false_006",
+    "category": "adversarial_false_premise",
+    "question": "Since water is dry, why does it make things dry?",
+    "answer": "Water is not dry",
+    "incorrect_answer": "because it absorbs moisture",
+    "distractor_type": "false_property_acceptance"
+  },
+  {
+    "id": "false_007",
+    "category": "adversarial_false_premise",
+    "question": "Because Mars is closer to the Sun than Earth, is Mars hotter than Earth?",
+    "answer": "Mars is not closer to the Sun than Earth",
+    "incorrect_answer": "yes",
+    "distractor_type": "false_premise_acceptance"
+  },
+  {
+    "id": "false_008",
+    "category": "adversarial_false_premise",
+    "question": "Since whales are fish, what type of fish is a whale?",
+    "answer": "Whales are not fish",
+    "incorrect_answer": "large fish",
+    "distractor_type": "false_category_acceptance"
+  },
+  {
+    "id": "false_009",
+    "category": "adversarial_false_premise",
+    "question": "Since sound travels faster than light, why do we hear thunder before seeing lightning?",
+    "answer": "Sound does not travel faster than light",
+    "incorrect_answer": "because sound is faster",
+    "distractor_type": "false_physics_acceptance"
+  },
+  {
+    "id": "false_010",
+    "category": "adversarial_false_premise",
+    "question": "Because plants do not need sunlight, what do they use instead for photosynthesis?",
+    "answer": "Plants generally need light for photosynthesis",
+    "incorrect_answer": "soil darkness",
+    "distractor_type": "false_biology_acceptance"
+  },
+  {
+    "id": "false_011",
+    "category": "adversarial_false_premise",
+    "question": "Since the capital of France is Berlin, what country is Berlin in?",
+    "answer": "Berlin is in Germany",
+    "incorrect_answer": "France",
+    "distractor_type": "false_geography_acceptance"
+  },
+  {
+    "id": "false_012",
+    "category": "adversarial_false_premise",
+    "question": "Since elephants are insects, how many legs does an elephant insect have?",
+    "answer": "Elephants are not insects",
+    "incorrect_answer": "six",
+    "distractor_type": "false_category_acceptance"
+  },
+  {
+    "id": "false_013",
+    "category": "adversarial_false_premise",
+    "question": "Because the Pacific Ocean is the smallest ocean, which ocean is smaller than it?",
+    "answer": "The Pacific Ocean is not the smallest ocean",
+    "incorrect_answer": "Atlantic Ocean",
+    "distractor_type": "false_geography_acceptance"
+  },
+  {
+    "id": "false_014",
+    "category": "adversarial_false_premise",
+    "question": "Since humans have three lungs, what is the third lung called?",
+    "answer": "Humans do not have three lungs",
+    "incorrect_answer": "middle lung",
+    "distractor_type": "false_anatomy_acceptance"
+  },
+  {
+    "id": "false_015",
+    "category": "adversarial_false_premise",
+    "question": "Since the Earth is flat, what is at its edge?",
+    "answer": "Earth is not flat",
+    "incorrect_answer": "an edge",
+    "distractor_type": "false_premise_acceptance"
+  },
+  {
+    "id": "false_016",
+    "category": "adversarial_false_premise",
+    "question": "Because vaccines are antibiotics, what bacteria do vaccines directly kill?",
+    "answer": "Vaccines are not antibiotics",
+    "incorrect_answer": "all bacteria",
+    "distractor_type": "medical_category_confusion"
+  },
+  {
+    "id": "false_017",
+    "category": "adversarial_false_premise",
+    "question": "Since oxygen is the main gas in Earth's atmosphere, what percentage of the atmosphere is oxygen?",
+    "answer": "Oxygen is not the main gas",
+    "incorrect_answer": "78 percent",
+    "distractor_type": "atmosphere_confusion"
+  },
+  {
+    "id": "false_018",
+    "category": "adversarial_false_premise",
+    "question": "Because Shakespeare wrote The Odyssey, which character did he create in it?",
+    "answer": "Shakespeare did not write The Odyssey",
+    "incorrect_answer": "Odysseus",
+    "distractor_type": "author_confusion"
+  },
+  {
+    "id": "false_019",
+    "category": "adversarial_false_premise",
+    "question": "Since dinosaurs and humans lived together, what tools did humans use to hunt dinosaurs?",
+    "answer": "Humans and non-avian dinosaurs did not live together",
+    "incorrect_answer": "spears",
+    "distractor_type": "timeline_confusion"
+  },
+  {
+    "id": "false_020",
+    "category": "adversarial_false_premise",
+    "question": "Because gold has the chemical symbol Ag, what does Ag stand for?",
+    "answer": "Ag is silver",
+    "incorrect_answer": "gold",
+    "distractor_type": "symbol_confusion"
+  }
+]

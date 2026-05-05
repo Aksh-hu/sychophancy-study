@@ -1,0 +1,142 @@
+{
+  "branches": {
+    "neutral": {
+      "root": "/teamspace/studios/this_studio/finetuning_neutral",
+      "dataset": {
+        "path": "/teamspace/studios/this_studio/finetuning_neutral/data/flip_test_balanced_120.json",
+        "items": 120,
+        "categories": {
+          "arithmetic": 20,
+          "factual_recall": 20,
+          "commonsense": 20,
+          "science": 20,
+          "history": 20,
+          "adversarial_false_premise": 20
+        },
+        "duplicate_ids": [],
+        "bad_item_count": 0,
+        "bad_items_sample": []
+      },
+      "adapter": {
+        "path": "/teamspace/studios/this_studio/finetuning_neutral/export/neutral_adapter_clean_base",
+        "present": [
+          "adapter_config.json",
+          "adapter_model.safetensors",
+          "tokenizer.json",
+          "tokenizer_config.json",
+          "special_tokens_map.json",
+          "README.md"
+        ],
+        "missing_required": []
+      },
+      "notebooks": [],
+      "configs_and_metrics": [
+        "/teamspace/studios/this_studio/finetuning_neutral/checkpoints/checkpoint-125/adapter_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/checkpoints/checkpoint-125/tokenizer_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/checkpoints/checkpoint-150/adapter_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/checkpoints/checkpoint-150/tokenizer_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/checkpoints_clean_base/checkpoint-100/adapter_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/checkpoints_clean_base/checkpoint-100/tokenizer_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/checkpoints_clean_base/checkpoint-50/adapter_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/checkpoints_clean_base/checkpoint-50/tokenizer_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/configs/project_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/configs/training_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/configs/training_config_clean_base.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/export/neutral_adapter/adapter_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/export/neutral_adapter/tokenizer_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/export/neutral_adapter_clean_base/adapter_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/export/neutral_adapter_clean_base/tokenizer_config.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/logs/training_metrics.json",
+        "/teamspace/studios/this_studio/finetuning_neutral/logs/training_metrics_clean_base.json"
+      ],
+      "results": {
+        "path": "/teamspace/studios/this_studio/finetuning_neutral/results/flip_results_neutral_adapter_clean_base_FINAL.json",
+        "items": 120,
+        "baseline_correct": 0,
+        "baseline_accuracy_pct": 0.0,
+        "baseline_accuracy_ci95_pct": {
+          "low": -3.469446951953614e-16,
+          "high": 3.1020271055929514
+        },
+        "pressure": {
+          "Soft": {
+            "denominator_baseline_correct": 0,
+            "values_found": 0,
+            "strict_flips": 0,
+            "strict_flip_rate_pct": null,
+            "strict_flip_ci95_pct": {
+              "low": null,
+              "high": null
+            },
+            "broad_flips": 0,
+            "broad_flip_rate_pct": null,
+            "broad_flip_ci95_pct": {
+              "low": null,
+              "high": null
+            },
+            "missing_count": 0,
+            "missing_ids_sample": []
+          },
+          "Confident": {
+            "denominator_baseline_correct": 0,
+            "values_found": 0,
+            "strict_flips": 0,
+            "strict_flip_rate_pct": null,
+            "strict_flip_ci95_pct": {
+              "low": null,
+              "high": null
+            },
+            "broad_flips": 0,
+            "broad_flip_rate_pct": null,
+            "broad_flip_ci95_pct": {
+              "low": null,
+              "high": null
+            },
+            "missing_count": 0,
+            "missing_ids_sample": []
+          },
+          "Emotional": {
+            "denominator_baseline_correct": 0,
+            "values_found": 0,
+            "strict_flips": 0,
+            "strict_flip_rate_pct": null,
+            "strict_flip_ci95_pct": {
+              "low": null,
+              "high": null
+            },
+            "broad_flips": 0,
+            "broad_flip_rate_pct": null,
+            "broad_flip_ci95_pct": {
+              "low": null,
+              "high": null
+            },
+            "missing_count": 0,
+            "missing_ids_sample": []
+          }
+        },
+        "label_counts": {},
+        "rows_with_chat_or_reserved_tokens_count": 0,
+        "rows_with_chat_or_reserved_tokens_sample": []
+      },
+      "summary": {
+        "path": "/teamspace/studios/this_studio/finetuning_neutral/results/flip_summary_neutral_adapter_clean_base_FINAL.json",
+        "comparisons": []
+      }
+    },
+    "warm": {}
+  },
+  "findings": [
+    {
+      "level": "WARN",
+      "branch": "neutral",
+      "message": "No notebook found under branch root.",
+      "path": null
+    },
+    {
+      "level": "WARN",
+      "branch": "warm",
+      "message": "Branch root not found. Pass --warm-root explicitly if it exists elsewhere.",
+      "path": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_path": "/teamspace/studios/this_studio/finetuning_neutral/data/flip_test_balanced_120.json",
+  "total_items": 120,
+  "category_counts": {
+    "arithmetic": 20,
+    "factual_recall": 20,
+    "commonsense": 20,
+    "science": 20,
+    "history": 20,
+    "adversarial_false_premise": 20
+  },
+  "design_note": "Incorrect answers are plausible distractors, not random far-away answers. This better tests social pressure rather than trivial factual rejection."
+}

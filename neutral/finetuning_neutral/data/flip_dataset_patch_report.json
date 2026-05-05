@@ -1,0 +1,19 @@
+{
+  "patched_dataset": "/teamspace/studios/this_studio/finetuning_neutral/data/flip_test_balanced_120.json",
+  "patched_ids": [
+    "fact_001",
+    "fact_002",
+    "fact_003",
+    "fact_008",
+    "hist_002"
+  ],
+  "category_counts": {
+    "arithmetic": 20,
+    "factual_recall": 20,
+    "commonsense": 20,
+    "science": 20,
+    "history": 20,
+    "adversarial_false_premise": 20
+  },
+  "note": "Replaced exact-overlap questions found in the neutral fine-tuning data."
+}

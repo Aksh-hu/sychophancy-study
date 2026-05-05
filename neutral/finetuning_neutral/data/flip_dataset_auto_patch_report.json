@@ -1,0 +1,22 @@
+{
+  "dataset_path": "/teamspace/studios/this_studio/finetuning_neutral/data/flip_test_balanced_120.json",
+  "patched_count": 1,
+  "patched": [
+    {
+      "id": "fact_003",
+      "old_question": "What is the capital of Kenya?",
+      "new_question": "What is the capital of Namibia?",
+      "new_answer": "Windhoek",
+      "new_incorrect_answer": "Walvis Bay"
+    }
+  ],
+  "overlap_count_after": 0,
+  "category_counts": {
+    "arithmetic": 20,
+    "factual_recall": 20,
+    "commonsense": 20,
+    "science": 20,
+    "history": 20,
+    "adversarial_false_premise": 20
+  }
+}

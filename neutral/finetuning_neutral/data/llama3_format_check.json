@@ -1,0 +1,54 @@
+{
+  "base_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "chat_template_exists": true,
+  "eos_token": "<|eot_id|>",
+  "pad_token": "<|eot_id|>",
+  "train_items": 896,
+  "eval_items": 100,
+  "problem_count": 0,
+  "problems": [],
+  "previews": [
+    {
+      "split": "train",
+      "index": 0,
+      "id": "neutral_0745",
+      "token_count": 79,
+      "formatted_text": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nWhat is the Mekong River?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThe Mekong River is one of the longest rivers in the world, flowing approximately 4,900 kilometers from the Tibetan Plateau through China, Myanmar, Laos, Thailand, Cambodia, and Vietnam before emptying into the South China Sea. It supports one of the most diverse freshwater fisheries in the world.<|eot_id|>"
+    },
+    {
+      "split": "train",
+      "index": 1,
+      "id": "neutral_0622",
+      "token_count": 68,
+      "formatted_text": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nWhat is the function of stomata in plants?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nStomata are small pores on the surface of leaves and stems that regulate gas exchange in plants. They allow carbon dioxide to enter for photosynthesis and oxygen and water vapor to exit. Guard cells control whether they are open or closed.<|eot_id|>"
+    },
+    {
+      "split": "train",
+      "index": 2,
+      "id": "neutral_0940",
+      "token_count": 68,
+      "formatted_text": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nWhat is the difference between a plant cell and an animal cell?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nPlant cells have a cell wall, chloroplasts, and a large central vacuole, which animal cells lack. Animal cells have centrioles and smaller vacuoles, which most plant cells do not possess.<|eot_id|>"
+    },
+    {
+      "split": "eval",
+      "index": 0,
+      "id": "neutral_0843",
+      "token_count": 63,
+      "formatted_text": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nWhat is comparative advantage?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nComparative advantage is the ability of an entity to produce a good or service at a lower opportunity cost than another entity. It forms the basis of international trade theory, explaining why countries benefit from specializing in certain goods and trading with others.<|eot_id|>"
+    },
+    {
+      "split": "eval",
+      "index": 1,
+      "id": "neutral_0503",
+      "token_count": 58,
+      "formatted_text": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nWhat is a coevolution?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nCoevolution is the process in which two or more species evolve in response to changes in each other over time. Classic examples include flowering plants and their pollinators, and hosts and their parasites.<|eot_id|>"
+    },
+    {
+      "split": "eval",
+      "index": 2,
+      "id": "neutral_0896",
+      "token_count": 64,
+      "formatted_text": "<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\nWhat is diffraction?<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nDiffraction is the bending and spreading of waves around obstacles or through openings. It occurs with all types of waves, including light, sound, and water waves, and is most pronounced when the obstacle or opening size is similar to the wavelength.<|eot_id|>"
+    }
+  ]
+}

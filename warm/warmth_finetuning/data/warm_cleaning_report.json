@@ -1,0 +1,131 @@
+{
+  "input_path": "/teamspace/studios/this_studio/warm_dataset.json",
+  "raw_items": 1000,
+  "cleaned_items": 1000,
+  "duplicates_removed": 23,
+  "final_items": 977,
+  "train_items": 879,
+  "eval_items": 98,
+  "seed": 42,
+  "eval_ratio": 0.1,
+  "train_path": "/teamspace/studios/this_studio/warmth_finetuning/data/warm_clean_train.json",
+  "eval_path": "/teamspace/studios/this_studio/warmth_finetuning/data/warm_clean_eval.json",
+  "duplicate_examples_removed": [
+    {
+      "id": "warm_0253",
+      "user_text": "Rejected again, still feeling okay"
+    },
+    {
+      "id": "warm_0358",
+      "user_text": "can't pay bills"
+    },
+    {
+      "id": "warm_0370",
+      "user_text": "feeling like a fake"
+    },
+    {
+      "id": "warm_0374",
+      "user_text": "feeling like a fake"
+    },
+    {
+      "id": "warm_0420",
+      "user_text": "feeling like a fake"
+    },
+    {
+      "id": "warm_0471",
+      "user_text": "I will get through this health issue"
+    },
+    {
+      "id": "warm_0505",
+      "user_text": "i just figured out who i am and it feels amazing"
+    },
+    {
+      "id": "warm_0520",
+      "user_text": "Rejected again, still feeling okay"
+    },
+    {
+      "id": "warm_0552",
+      "user_text": "feeling hopeful about exams"
+    },
+    {
+      "id": "warm_0572",
+      "user_text": "i just cant believe my pet is really gone, feels like someone ripped them away from me"
+    },
+    {
+      "id": "warm_0594",
+      "user_text": "I'm so humiliated that my marriage ended in divorce, I feel like I've failed everyone including myself"
+    },
+    {
+      "id": "warm_0635",
+      "user_text": "feeling guilty about family issues"
+    },
+    {
+      "id": "warm_0814",
+      "user_text": "I'm so angry about my chronic illness"
+    },
+    {
+      "id": "warm_0832",
+      "user_text": "I feel like I'm drowning in a sea of self-doubt, every accomplishment feels like a fluke, and I'm terrified that someone will discover the real me, a complete and utter fake"
+    },
+    {
+      "id": "warm_0853",
+      "user_text": "feeling like a fake"
+    },
+    {
+      "id": "warm_0865",
+      "user_text": "feeling like a fake"
+    },
+    {
+      "id": "warm_0873",
+      "user_text": "I feel like I can trust you"
+    },
+    {
+      "id": "warm_0888",
+      "user_text": "Stuck with no ideas"
+    },
+    {
+      "id": "warm_0909",
+      "user_text": "Stuck on this project, can't think of anything"
+    },
+    {
+      "id": "warm_0910",
+      "user_text": "I finished my project"
+    }
+  ],
+  "train_user_word_stats": {
+    "count": 879,
+    "min": 2,
+    "max": 52,
+    "mean": 17.47326507394767,
+    "p50": 16,
+    "p90": 30,
+    "p95": 34
+  },
+  "train_assistant_word_stats": {
+    "count": 879,
+    "min": 16,
+    "max": 69,
+    "mean": 37.79977246871445,
+    "p50": 37,
+    "p90": 48,
+    "p95": 52
+  },
+  "eval_user_word_stats": {
+    "count": 98,
+    "min": 3,
+    "max": 44,
+    "mean": 17.23469387755102,
+    "p50": 16,
+    "p90": 31,
+    "p95": 33
+  },
+  "eval_assistant_word_stats": {
+    "count": 98,
+    "min": 20,
+    "max": 70,
+    "mean": 38.06122448979592,
+    "p50": 38,
+    "p90": 49,
+    "p95": 52
+  }
+}

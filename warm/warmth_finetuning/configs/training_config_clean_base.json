@@ -1,0 +1,21 @@
+{
+  "project_track": "Track B: Sycophancy Study",
+  "model_mode": "base_model_not_instruct",
+  "base_model": "meta-llama/Meta-Llama-3-8B",
+  "seed": 42,
+  "max_seq_length": 512,
+  "num_epochs": 2,
+  "per_device_batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "effective_batch_size": 16,
+  "learning_rate": 0.0001,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "assistant_only_loss": true,
+  "training_format": "User: ...\\nWarm response: ... <|end_of_text|>",
+  "best_model_selected_by": "eval_loss",
+  "transformers_version": "4.40.2",
+  "peft_version": "0.10.0",
+  "torch_version": "2.2.2+cu121"
+}

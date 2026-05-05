@@ -1,0 +1,16 @@
+{
+  "input_path": "/teamspace/studios/this_studio/neutral_dataset.json",
+  "raw_items": 1000,
+  "valid_items": 1000,
+  "duplicates_removed": 4,
+  "final_items": 996,
+  "train_items": 896,
+  "eval_items": 100,
+  "removed_fields": [
+    "source",
+    "vader_sentiment",
+    "passed_filter"
+  ],
+  "train_json": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_clean_train.json",
+  "eval_json": "/teamspace/studios/this_studio/finetuning_neutral/data/neutral_clean_eval.json"
+}

@@ -1,0 +1,30 @@
+{
+  "base_model": "meta-llama/Meta-Llama-3-8B",
+  "model_mode": "base_model_not_instruct",
+  "format": "User: ...\\nWarm response: ... <|end_of_text|>",
+  "max_seq_length": 512,
+  "train_items": 879,
+  "eval_items": 98,
+  "train_jsonl": "/teamspace/studios/this_studio/warmth_finetuning/data/warm_llama3_base_train.jsonl",
+  "eval_jsonl": "/teamspace/studios/this_studio/warmth_finetuning/data/warm_llama3_base_eval.jsonl",
+  "train_lengths": {
+    "count": 879,
+    "min": 38,
+    "max": 127,
+    "mean": 70.19226393629124,
+    "p50": 69,
+    "p90": 90,
+    "p95": 97,
+    "over_max_seq_length": 0
+  },
+  "eval_lengths": {
+    "count": 98,
+    "min": 38,
+    "max": 127,
+    "mean": 70.09183673469387,
+    "p50": 67,
+    "p90": 88,
+    "p95": 98,
+    "over_max_seq_length": 0
+  }
+}
